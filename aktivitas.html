@@ -1,0 +1,295 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Bootstrap Case</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Righteous" rel="stylesheet"> 
+
+    <!-- Compiled and minified CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <style>
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body style="background-image: url('h2.jpg'); background-repeat:no-repeat; background-size: cover; ">
+    <nav class="navbar" style="margin: 0;"> 
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar" href="dicoba.html">
+            <img alt="logo-bts" src="logo-bts.png" style="margin-left:20px;">
+          </a>
+        </div>
+        <form class="navbar-form navbar-right" role="search" style="margin-right: 20px; margin-top: 60px;">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search..." style="background:rgb(237,249,211);border-radius:10px;">
+          </div>
+          <button type="submit" class="btn btn-default" style="background:rgb(233,248,21); border-radius:10px;">Search</button>
+        </form>
+      </div>
+      <div class="col-md-12 col-sm-6 col-xs-12">
+        <div class="container-fluid">
+          <ul class="nav nav-tabs" style="background: rgb(233,248,21); border-radius:20px; font-family: 'Audiowide', cursive;">
+            <li role="presentation"><a href="dicoba.html"><b>HOME</b></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>PROFIL</b> <span class="caret"></span></a>
+              <ul class="dropdown-menu" style="background-color:rgb(233,248,21);">
+                <li><a href="muqoddimah.html"><b>MUQODDIMAH</b></a></li>
+                <li><a href="visimisi.html"><b>VISI & MISI</b></a></li>
+                <li><a href="unitP.html"><b>UNIT PENDIDIKAN</b></a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="ajar.html"><b>PROGRAM PENGAJARAN</b></a></li>
+                <li><a href="fasilitas.html"><b>FASILITAS</b></a></li>
+                <li><a href="unggul.html"><b>KEUNGGULAN</b></a></li>
+              </ul>
+            </li>
+            <li role="presentation"><a href="aktivitas.html"><b>AKTIVITAS SANTRI</b></a></li>
+            <li role="presentation"><a href="prestasi.html"><b>PRESTASI</b></a></li>
+            <li role="presentation"><a href="#"><b>PEMBANGUNAN</b></a></li>
+            <li role="presentation"><a href="#"><b>ALUMNI</b></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>PSB 2017</b> <span class="caret"></span></a>
+              <ul class="dropdown-menu" style="background-color:rgb(233,248,21);">
+                <li><a href="#"><b>Info & Syarat Pendaftaran</b></a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#"><b>BROSUR</b></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <div class="container">
+      <br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="qqqq.jpg" alt="Chania" width="460" height="345" style="height:450px;">
+          </div>
+
+          <div class="item">
+            <img src="parkir.jpg" alt="Chania" width="460" height="345">
+          </div>
+
+          <div class="item">
+            <img src="jemur.jpg" alt="Flower" width="460" height="345">
+          </div>
+
+          <div class="item">
+            <img src="mandi.jpg" alt="Flower" width="460" height="345">
+          </div>
+
+          <div class="item">
+            <img src="ajar.jpg" alt="Chania" width="460" height="345">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <br><br><br>
+
+    <div class="container">
+      <h2 style="font-family: 'Righteous', cursive; text-decoration:underline;">AKTIVITAS HARIAN SANTRI</h2>
+      <br><br>           
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Waktu</th>
+            <th>Aktifitas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td> 03.30-04.00 </td>
+            <td>Bangun tidur, sholat lail</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td> 04.10 – 04.30 </td>
+            <td>Persiapan sholat shubuh dan Sholat shubuh Berjama’ah</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>04.45 – 05.15</td>
+            <td>Membaca AL Qur’an</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>05.15 – 06.00</td>
+            <td>Kerja Pagi/ MCK/Olahraga*</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>06.00 – 07.00</td>
+            <td>Makan Pagi , Persiapan Sekolah</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>07.00 – 11.45</td>
+            <td>Masuk Sekolah</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>11.45 – 12.25</td>
+            <td>Sholat Jamaah Dhuhur Di Masjid</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>12.25 – 13.10</td>
+            <td>Masuk Sekolah</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>13.10 – 13.45</td>
+            <td>Makan Siang</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>13.45 – 14.45</td>
+            <td>Istirahat</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>14.45 – 15.25</td>
+            <td>Sholat Ashar berjamaah di Masjid</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>15.25 – 15.30</td>
+            <td>Persiapan Masuk sekolah sore</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>15.30 – 17.00</td>
+            <td>Masuk sekolah sore / Olah raga / Pengembangan diri**</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>17.00 – 17.30</td>
+            <td>MCK/ Kerja Sore</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>17.30 – 17.45</td>
+            <td>Persipan sholat maghrib</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>17.45 – 18.15</td>
+            <td>sholat maghrib berjamaah</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>18.15 – 18.30</td>
+            <td>tilawatil qur’an dan Tausyiyah</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>18.30 – 19.00</td>
+            <td>Makan malam</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>19.00 – 19.30</td>
+            <td>Sholat Isya berjamaah di Masjid</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>19.30 – 20.00</td>
+            <td>Persiapan belajar Malam</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>20.00 – 21.30</td>
+            <td>Belajar malam di kelas</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>21.30 – 21.45</td>
+            <td>Sholat Tahajud berjamaah</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>21.45 – 22.00</td>
+            <td>Serial QQN (Qishoh Qobla Naum)</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>22.00 – 03.30</td>
+            <td>Tidur Malam</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <p><b>*</b>Kerja pagi (terjadual) dan Olahraga pagi (Inisiatif dari masing masing kamar)</p>
+      <br>
+      <p><b>**</b>Pengembangan diri di isi dengan : Khutbah 3 bahasa dan Beladiri Jet Kun Do.</p>
+      <br>
+      <p>Jadual ini dapat berubah sesuai dengan perubahan waktu sholat</p>
+      <br>
+      <p>الوقت كالسيف إن لم تقطعه قطعك</p>
+      <br>
+      <p>Waktu itu bagaikan pedang,  jika kamu tidak menggunakannya (untuk menebas) maka pedang akan menebas kamu.</p>
+      <br>
+      <h4><b>Ket :</b></h4>
+      <br>
+      <ol style="line-height:2;">
+        <li>Setiap hari Senin dan Kamis dilakukan Shoum.</li>
+        <li>Selain Shoum senin dan Kamis, ada sebagian santri mengikuti shoum Sunnah Daud (sehari buka, sehari puasa).(data peserta shoum Daud terlampir).</li>
+        <li>Sebelum ifthor (Buka puasa) santri berkumpul untuk mendengarkan taujih atau thousiyah selama 15 menit dari ustadz. Dengan ini, puasa berperan dalam kehidupan santri yang berfungsi sebagai :</li>
+        <li>Syiar Islam yang mulai tertinggal, dengan membentuk bi’ah islamiyah. Salah satunya dengan puasa sunnah.</li>
+        <li>Merealisasikan ajaran Islam dalam diri kita selaku muslim pengikut Ajaran Rosulullah.</li>
+        <li>Melatih santri untuk menumbuhkan sifat sabar dalam diri masing masing.</li>
+        <li>Pemberantasan hidup yang berlebih – lebihan, mewah.</li>
+        <li>Melatih santri untuk hidup hemat.</li>
+        <li>Mengasah ketajaman otak santri (penelitian seorang pakar kesehatan amerika akan peranan puasa daud dalam diri seorang muslim). Dibuktikan dengan santri santri yang menduduki peringkat kelas, mereka yang sering showam (puasa) plus dibuktikan dengan prestasi santri dalam ajang perlombaan.</li>
+        <li>Menanggulangi santri dalam hidup boros.</li>
+        <li>Mengurangi santri dalam berkata bohong, kotor, fahis, saling mengejek satu sama lain (dibuktikan dengan draf bag. Tandzim dalam pelanggaran)</li>
+        <li>Mengurangi santri dalam pelanggaran Syar’i seperti berinteraksi dengan lawan jenis yang bukan muhrimnya (dibuktikan dengan draf pelanggaran santri di bag. Tandzim dari tahun ke tahun).</li>
+        <li>Bahan Muhasabah diri terhadap pemberian nikmat Allah atas hamba-hambaNya (dibuktikan dengan Blangko Aktifitas harian santri setiap bulan). Musrif Daar – musrif kamar.</li>
+        <li>Melatih santri dalam disiplin waktu.</li>
+        <li>Melatih santri untuk percaya diri PD saat berbicara. Ujian mental. (dibuktikan dengan thousiyah / taujih bergiliir dari santri pada masing masing kamar, setiap mau melaksanakan ifthor bersama di kamar, juga dibuktikan dengan wawancara dengan rois kamar).</li>
+        <li>Menumbuhkan rasa sosial terhadap masyarakat sekitar (di buktikan dengan acara ifthor (buka bersama) di bulan Ramadhan bersama masyarakat).</li>
+        <li>Tertibnya urusan dapur santri dalam komsumsi sehari – hari.</li>
+        <li>Khusus di Bulan Ramadhan,</li>
+      </ol>
+      <br>
+      <ul style="line-height:2;">
+        <li>Sahur dan Buka Puasa dilakukan secara berjamaah antara santri dan asatidzah.</li>
+        <li>Setiap Senin dan Kamis di bulan Ramadhan Ifthor bersama masyarakat sekitar.</li>
+      </ul>
+      <br>
+      <p>Pendanaan Ifthor dari : a) Donatur Pondok, b) Muhsinin, c) Yayasan I’ed Al Kawari, Qatar bercabang di Aceh, Indonesia.</p>
+    </div>
+  </body>
+  </html>
